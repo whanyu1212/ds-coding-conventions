@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ds-coding-conventions"
+version = "0.1.0"
+description = "examples of how to write good code for dsml"
+authors = ["hy"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.12.0"
+flake8 = "^6.1.0"
+isort = "^5.13.2"
+docformatter = "^1.7.5"
+pre-commit = "^3.6.0"
+ipykernel = "^6.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
