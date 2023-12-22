@@ -13,8 +13,13 @@ isort = "^5.13.2"
 docformatter = "^1.7.5"
 pre-commit = "^3.6.0"
 ipykernel = "^6.27.1"
+numpy = "^1.26.2"
+pandera = "^0.18.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
